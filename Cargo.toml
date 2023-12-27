@@ -1,7 +1,9 @@
 [workspace]
+resolver = "2"
 members = [
     "rust_snake_game",
     "rs-js",
     "websocket-chat-server",
-    "websocket-chat"
+    "websocket-chat",
+    "rs-json-parser"
 ]
