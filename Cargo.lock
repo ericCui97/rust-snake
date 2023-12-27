@@ -1750,6 +1750,13 @@ name = "rs-js"
 version = "0.1.0"
 
 [[package]]
+name = "rs-json-parser"
+version = "0.1.0"
+dependencies = [
+ "nom",
+]
+
+[[package]]
 name = "rust_snake_game"
 version = "0.1.0"
 dependencies = [

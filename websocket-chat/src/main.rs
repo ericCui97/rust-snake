@@ -1,4 +1,3 @@
-use std::any::Any;
 use std::io::{self, ErrorKind, Write, Read};
 use std::net::TcpStream;
 use std::sync::mpsc::{self,TryRecvError};
