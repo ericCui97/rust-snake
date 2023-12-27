@@ -7,6 +7,7 @@
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/websocket-chat-server/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/websocket-chat/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/rs-json-parser/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/target" />
     </content>
     <orderEntry type="inheritedJdk" />
