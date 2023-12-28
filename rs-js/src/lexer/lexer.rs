@@ -80,8 +80,9 @@ impl Lexer {
                 return Some(Token::Number(number.parse().unwrap()));
             }
 
+
             // Example: Operators
-            if "+-*/".contains(ch) {
+            if "+-*/%".contains(ch) {
                 self.advance();
                 return Some(Token::Operator(ch));
             }
