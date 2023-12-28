@@ -1,3 +1,7 @@
 {
-    "debug.allowBreakpointsEverywhere": true
+  "debug.allowBreakpointsEverywhere": true,
+  "rust-analyzer.linkedProjects": [
+    "./rs-js/Cargo.toml",
+    "./rs-js/Cargo.toml"
+  ]
 }

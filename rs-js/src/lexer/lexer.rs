@@ -1,7 +1,19 @@
+use super::keywords::Keyword;
+
+
+
 pub struct Lexer {
     input: String,
     position: usize,
     current_char: Option<char>,
+}
+
+#[derive(Debug, PartialEq)]
+pub enum Token {
+    Identifier(String),
+    Number(i32),
+    Operator(char),
+    Keyword(Keyword),
 }
 
 
@@ -78,13 +90,6 @@ impl Lexer {
         None
     }
 }
-#[derive(Debug, PartialEq)]
-pub enum Token {
-    Identifier(String),
-    Number(i32),
-    Operator(char),
-}
-
 #[cfg(test)]
 mod test1 {
     use super::*;
